@@ -16,7 +16,7 @@
 
 // while loops
 
-const names = ['trevor', 'mario', 'luigi'];
+// const names = ['trevor', 'mario', 'luigi'];
 
 // while(i < 5){
 //     console.log('in loop: ', i);
@@ -31,9 +31,33 @@ const names = ['trevor', 'mario', 'luigi'];
 
 // do while loops
 
-let i = 5;
+// let i = 5;
 
-do{
-    console.log('val of i is: ', i);
-    i++;
-}while(i < 5);
+// do{
+//     console.log('val of i is: ', i);
+//     i++;
+// }while(i < 5);
+
+// if statements
+
+const age = 25;
+
+if(age > 20){
+    console.log('you are over 20 years old!')
+}
+
+const ninjas = ['ryu', 'ken', 'scorpion', 'subzero'];
+
+if(ninjas.length > 3){
+    console.log('thats a lot of ninjas');
+}
+
+const password = 'pass';
+
+if(password.length >= 12){
+    console.log('that password is strong');
+} else if (password.length >= 8){
+    console.log('that password is long enough');
+} else {
+    console.log('you need a longer password');
+}
