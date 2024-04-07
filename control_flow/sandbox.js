@@ -52,11 +52,23 @@ if(ninjas.length > 3){
     console.log('thats a lot of ninjas');
 }
 
-const password = 'pass';
+// const password = 'pass';
 
-if(password.length >= 12){
+// if(password.length >= 12){
+//     console.log('that password is strong');
+// } else if (password.length >= 8){
+//     console.log('that password is long enough');
+// } else {
+//     console.log('you need a longer password');
+// }
+
+// logical operators - OR || and AND &&
+
+const password = 'p@ss12';
+
+if(password.length >= 12 && password.includes('@')){
     console.log('that password is strong');
-} else if (password.length >= 8){
+} else if (password.length >= 8 || password.includes('@') && password.length > 5){
     console.log('that password is long enough');
 } else {
     console.log('you need a longer password');
